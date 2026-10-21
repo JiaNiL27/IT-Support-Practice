@@ -12,6 +12,7 @@
 | [Practice 2](practice/practice-2.md) | 账号被锁 / 重设密码 | Social Engineering、身份验证、Active Directory |
 | [Practice 3](practice/practice-3.md) | 打印队列卡住 | Print Spooler、最小权限原则、远程支持 |
 | [Practice 4](practice/practice-4.md) | 电脑无法上网 | ipconfig、DHCP、APIPA (169.254)、Escalation |
+| [Practice 5](practice/practice-5.md) | 笔记本电脑很慢 | Restart vs Sleep、Fast Startup、硬盘空间、Storage Sense、OneDrive |
 
 ### 📝 Notes
 
@@ -19,6 +20,7 @@
 - [工单记录（Ticket Notes）模板](notes/ticket-template.md)
 - [常犯英文错误清单](notes/english-mistakes.md)
 - [A+ 模拟题重点](notes/aplus-quiz.md)
+- [网络故障排查笔记](notes/network-troubleshooting.md)
 
 ---
 
