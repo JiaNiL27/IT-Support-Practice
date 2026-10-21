@@ -11,6 +11,7 @@
 | [Practice 1](practice/practice-1.md) | Outlook 收不到邮件 | Working Offline vs Disconnected |
 | [Practice 2](practice/practice-2.md) | 账号被锁 / 重设密码 | Social Engineering、身份验证、Active Directory |
 | [Practice 3](practice/practice-3.md) | 打印队列卡住 | Print Spooler、最小权限原则、远程支持 |
+| [Practice 4](practice/practice-4.md) | 电脑无法上网 | ipconfig、DHCP、APIPA (169.254)、Escalation |
 
 ### 📝 Notes
 
