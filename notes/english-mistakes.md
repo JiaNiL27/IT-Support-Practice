@@ -29,5 +29,14 @@
 | ensure your information | **verify your identity** | *ensure* = 确保 |
 | you register phone number | **your registered phone number** | 所有格 + 过去分词 |
 | posiblem / identidy / appreal | **possible / identity / appears** | 拼写 |
+| please unplugged | **please unplug** | *please* 后接动词原形 |
+| Thanks for inform me | **Thanks for letting me know** | *for* 后接动词 ing |
+| help me to type | **Please type** | 是用户在帮自己 |
+| share drive | **shared drive** | 共享的硬盘 |
+| when is the situation start | **When did this problem start?** | 问过去的事用 *did* + 原形 |
+| you uses | **you use** | *you* 后的动词不加 *s* |
+| didn't got | **didn't get** | *didn't* 后接原形 |
+| the relate team | **the network team / the related team** | 具体说出团队名称更专业 |
+| serach / colleageus / troubeshooting | **search / colleagues / troubleshooting** | 拼写 |
 
 [⬅️ 返回目录](../README.md)
