@@ -54,5 +54,15 @@
 | on the cloud | **in the cloud** | 固定说法 |
 | there has a function call | **there is a feature called** | *there is* + *called* |
 | was loaded slow | **was running slowly** | 电脑运行得慢 |
+| log in your account | **log in to your account** | *log in to* + 地方 |
+| sign out of all your sessions（IT 帮用户） | **sign you out of all your sessions** | 帮别人登出要加 *you* |
+| in the outlook | **in Outlook** | 产品名称不加 *the* |
+| You are doing well as call us | **You did a great job calling us** | 过去式 + *calling* |
+| did you received / I just send | **did you receive / I just sent** | *did* + 原形；过去式 |
+| was going to expired | **was going to expire** | *going to* + 原形 |
+| identify the user identity | **verified the user's identity** | 验证用 *verify* |
+| ask user don't approve | **asked the user not to approve** | *ask someone not to do* |
+| an email said | **an email saying** | 描述邮件内容 |
+| reser / loggin / ahamd | **reset / login / Ahmad** | 拼写（名字要特别注意！） |
 
 [⬅️ 返回目录](../README.md)
