@@ -38,5 +38,21 @@
 | didn't got | **didn't get** | *didn't* 后接原形 |
 | the relate team | **the network team / the related team** | 具体说出团队名称更专业 |
 | serach / colleageus / troubeshooting | **search / colleagues / troubleshooting** | 拼写 |
+| help you with right away | **help you right away** | *help you with* 后要接事情 |
+| specially application | **specific / certain applications** | 这里要用形容词 |
+| Are you open a lot of application | **Do you have a lot of applications open?** | *have ... open* |
+| by go to | **by going to** | *by* 后接动词 ing |
+| continue where you left on | **Continue where you left off** | 选项名称要准确 |
+| quit full | **quite full** | *quit* 放弃，*quite* 相当 |
+| usage is full | **storage / disk is full** | *usage* 不能"满" |
+| I suggest you to click | **I suggest clicking / I suggest (that) you click** | *suggest* 不接 *you to* |
+| unclick | **uncheck** | 取消勾选 |
+| prevent to delete | **prevent ... from deleting / so you don't delete** | *prevent from + ing* |
+| pop out | **pop up / open** | 窗口跳出来 |
+| delete the tabs | **close the tabs** | 分页是关闭 |
+| the file won't delete | **the file won't be deleted** | 被动语态 |
+| on the cloud | **in the cloud** | 固定说法 |
+| there has a function call | **there is a feature called** | *there is* + *called* |
+| was loaded slow | **was running slowly** | 电脑运行得慢 |
 
 [⬅️ 返回目录](../README.md)

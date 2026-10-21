@@ -16,5 +16,9 @@
 | `ipconfig` 显示 Media disconnected | **网线没有连接**（物理层问题） |
 | 重新向 DHCP 申请 IP 的指令 | **ipconfig /release** + **ipconfig /renew** |
 | 网络排查应该先检查什么？ | **物理层**：网线、灯号（先硬件，后软件） |
+| 排查效能问题时应该选 Shut down 还是 Restart？ | **Restart**（Fast Startup 开启时，Shut down 不会完全重置） |
+| RAM 不够时 Windows 借用硬盘的空间叫什么？ | **Virtual memory / page file** |
+| 自动清理暂存文件和回收站的 Windows 功能 | **Storage Sense** |
+| Disk Cleanup 的指令 | **cleanmgr** |
 
 [⬅️ 返回目录](../README.md)
