@@ -136,6 +136,139 @@ Is there anything else I can help you with today? Good luck with your presentati
 - **先回应用户的担心**（怕失去分页、怕删掉文件），再给步骤
 - 问题没完全解决、但用户赶时间时 → **约后续时间（follow-up）**
 
+### Task Manager 排查指南（English）
+
+#### How to open Task Manager
+
+- Press **Ctrl + Shift + Esc** (fastest)
+- Or right-click the taskbar → **Task Manager**
+- Or press **Ctrl + Alt + Delete** → **Task Manager**
+- If you only see a small window, click **More details**
+
+#### Where to look
+
+| Tab | What it shows | When to use it |
+|---|---|---|
+| **Processes** | Every running app and background process, with CPU, Memory, Disk and Network usage | Find **which program** is using the most resources. Click a column header to sort |
+| **Performance** | Live graphs for CPU, Memory, Disk, Network, GPU | See the **overall** load. CPU page shows **Up time** (how long since the last restart) |
+| **Startup apps** | Programs that start automatically with Windows, with **Startup impact** | Slow boot. Right-click → **Disable** (does not uninstall the app) |
+| **Details** | Process names (`.exe`), PID, user | Identify an unknown process by its exact file name |
+| **Services** | Windows services and their status | Check if a service is running or stopped (e.g. Print Spooler) |
+
+> 💡 A column turns **dark orange / red** when usage is high, so you can spot the problem quickly.
+
+---
+
+#### 🧠 CPU (Processor)
+
+**What it means:** How busy the computer's "brain" is.
+
+| Symptom | Common cause | How to fix |
+|---|---|---|
+| CPU stays at **90–100%**, one app at the top | The app is frozen, stuck in a loop, or doing heavy work (e.g. video export, big Excel file) | Ask the user to save work, then **End task** on that app and reopen it. If it keeps happening, **update or reinstall** the app |
+| **Antimalware Service Executable** is high | Windows Defender is running a scan | **Normal.** Wait for the scan to finish. Scans can be scheduled outside working hours |
+| **Windows Update** / **TiWorker.exe** / **Windows Modules Installer** is high | Updates are installing in the background | **Normal.** Let it finish, then restart |
+| High CPU from a **process you don't recognize**, odd name, or unusual location | ⚠️ Possible **malware** or crypto-miner | **Don't just end it.** Disconnect from network if policy says so, run a full scan, and **escalate to the security team** |
+| CPU is high **all the time** even with few apps open, and the PC is old | Hardware too slow for current workload | Document it and escalate for a **hardware upgrade / replacement** |
+| Laptop is **hot**, fans loud, CPU slows down | **Thermal throttling** (overheating) from dust or blocked vents | Use on a hard, flat surface; clean vents; escalate to hardware team if it continues |
+
+**What to tell the user:**
+
+```text
+Please click CPU at the top of the list. Which program is at the top, and what percentage does it show?
+It looks like that program is stuck. Please save your work in it first, and I'll help you close and reopen it.
+```
+
+---
+
+#### 💾 Memory (RAM)
+
+**What it means:** Short-term working space for open apps. When it's full, Windows moves data to the disk (**virtual memory / page file**), which is much slower.
+
+| Symptom | Common cause | How to fix |
+|---|---|---|
+| Memory at **85–100%** | Too many apps or browser tabs open | Close unused apps; close or bookmark tabs; use **Chrome Task Manager (Shift + Esc in Chrome)** to find the heaviest tab |
+| Memory keeps **growing over days** | PC not restarted for a long time; an app has a **memory leak** | **Restart**. Check **Up time** in Performance → CPU. If one app keeps growing, update it |
+| Memory always high, even after restart with few apps open | Not enough RAM for the user's work (e.g. 8 GB with heavy apps) | Document usage and escalate for a **RAM upgrade** |
+| Memory high **and** Disk at 100% | RAM is full, so Windows is using the **page file** heavily | Free memory first (close apps, restart), and make sure the disk has enough free space |
+
+**What to tell the user:**
+
+```text
+Your computer's memory is almost full. That's like a desk covered with too many papers, so everything slows down.
+Let's close the programs you're not using. If you need your tabs later, you can bookmark them first.
+```
+
+---
+
+#### 💿 Disk
+
+**What it means:** How busy the storage drive is (reading and writing data). Note: this is **activity**, not free space. Check free space in **File Explorer** or **Settings → System → Storage**.
+
+| Symptom | Common cause | How to fix |
+|---|---|---|
+| Disk at **100%** for a long time | Windows Update, antivirus scan, OneDrive syncing, or indexing | Check which process is at the top. If it's a normal system task, **wait** for it to finish |
+| Disk at 100% **and** the drive is almost full | No space for page file and temp files | **Free up space**: Settings → System → Storage → Temporary files (uncheck Downloads!), `cleanmgr`, move files to OneDrive |
+| Disk often at 100% on an **older PC** | The PC uses an **HDD** (hard disk drive), which is much slower than an SSD | Check the drive type in **Performance → Disk** (it shows **HDD** or **SSD**). Escalate for an **SSD upgrade** |
+| Disk at 100% with **clicking noises**, freezing, or errors | ⚠️ The drive may be **failing** | **Back up the user's data immediately** and escalate to the hardware team |
+| Many apps load at startup, disk is busy after login | Too many **startup apps** | Go to **Startup apps** and disable the ones with **High** impact that the user doesn't need |
+
+**What to tell the user:**
+
+```text
+Your computer is busy reading and writing a lot of data right now, which is why it feels slow.
+It looks like Windows is installing updates in the background. Let's give it a few minutes to finish.
+```
+
+---
+
+#### 🌐 Network
+
+**What it means:** How much data the computer is sending and receiving. High network usage usually makes **internet and online apps** slow, not the whole PC.
+
+| Symptom | Common cause | How to fix |
+|---|---|---|
+| Network usage high from **OneDrive / Teams / Windows Update** | Large file sync, video calls, or update downloads | **Normal.** Pause OneDrive syncing temporarily if the user needs bandwidth (OneDrive icon → **Pause syncing**) |
+| Websites slow, but Task Manager shows **low** network usage | The problem is outside the PC: Wi-Fi signal, network, ISP, or the website itself | Check if colleagues have the same issue; try a wired connection; run `ping` or `ipconfig`; escalate to the network team if many users are affected |
+| High network usage from a **process you don't recognize** | ⚠️ Possible **malware** sending data out | **Escalate to the security team** |
+| Streaming or large downloads in the background | User activity (e.g. video streaming, big downloads) | Ask the user to pause it if it's not work-related |
+| No network activity at all and apps can't connect | No connection or no IP address | Check cable / Wi-Fi, then `ipconfig` (169.254 = DHCP problem). See [Practice 4](practice-4.md) |
+
+**What to tell the user:**
+
+```text
+OneDrive is uploading a lot of files right now, which is using most of your internet speed.
+I'll show you how to pause syncing for a while, so your video call runs smoothly.
+```
+
+---
+
+#### ⚠️ Safety rules when using End task
+
+- **Ask the user to save their work first**. Unsaved data in that app will be lost
+- **Don't end system processes** you don't understand, such as `System`, `svchost.exe`, `csrss.exe`, `wininit.exe`. This can crash Windows
+- Ending **Windows Explorer** makes the taskbar disappear for a moment. Use **Restart** on it instead of End task
+- Some processes need **admin rights** to end
+
+#### Other tools when Task Manager isn't enough
+
+| Tool | How to open | Use it for |
+|---|---|---|
+| **Resource Monitor** | `resmon` | More detail than Task Manager, e.g. which **files** a process is reading or writing |
+| **Event Viewer** | `eventvwr.msc` | System and app **error logs** (crashes, hardware errors) |
+| **Reliability Monitor** | Search "Reliability" | A **timeline** of errors; great for finding **when** problems started |
+| **Performance Monitor** | `perfmon` | Long-term performance logging (usually **L2**) |
+| **Windows Update** | Settings → Windows Update | Check for updates running in the background |
+| **Windows Security** | Settings → Privacy & security → Windows Security | Run a **virus and malware scan** |
+
+#### L1 troubleshooting flow for a slow computer
+
+1. **Ask questions**: When did it start? Is everything slow or one app? Anything changed recently?
+2. **Restart** if the PC hasn't been restarted for a long time (check **Up time**)
+3. **Open Task Manager**: is it CPU, Memory, Disk, or Network?
+4. **Fix based on the result**: close apps, free up space, disable startup apps, wait for updates
+5. **Still slow?** Check other tools, or **escalate to L2** (hardware upgrade, possible malware, failing drive)
+
 ### 工单记录范例
 
 ```text
