@@ -64,5 +64,14 @@
 | ask user don't approve | **asked the user not to approve** | *ask someone not to do* |
 | an email said | **an email saying** | 描述邮件内容 |
 | reser / loggin / ahamd | **reset / login / Ahmad** | 拼写（名字要特别注意！） |
+| won't happened / didn't happened | **won't happen / didn't happen** | *won't / didn't* 后接原形 |
+| save works | **save your work** | *work* 不可数；*works* 是"作品" |
+| before I fixed it | **before I fix it** | 未发生的事用现在式 |
+| If you'll still able to | **If you need to / If you're still able to** | *if* 后面不用 *will* |
+| uninstall the docking station（指驱动） | **uninstall the docking station driver** | 分清硬件和软件 |
+| it is help | **that really helps / it's helpful** | *help* 是动词 |
+| has crash with | **became incompatible with** | 描述驱动不兼容 |
+| gave by IT team | **provided / given by the IT team** | 被动语态用过去分词 |
+| minitue / hep / id（is） | **minute / help / is** | 拼写 |
 
 [⬅️ 返回目录](../README.md)
