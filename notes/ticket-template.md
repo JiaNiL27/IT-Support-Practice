@@ -34,4 +34,11 @@ Result:          用户是否确认解决？给了什么预防建议？是否关
 - **Defang 恶意网址和邮箱**：`.` → `[.]`，`http` → `hxxp`，避免别人不小心点到
 - 状态设为 **Escalated to Security team**
 
+**多个用户受同一个原因影响时：**
+
+- **每人各开一张工单**，注明 *Related to ticket #____*
+- 建议开 **Problem ticket**（找出并永久解决根本原因）
+- 写 **KB article**，同事下次可以直接搜索
+- 加一个 **Follow-up** 栏位，记录后续要做的事
+
 [⬅️ 返回目录](../README.md)
