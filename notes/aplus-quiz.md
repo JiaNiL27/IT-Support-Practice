@@ -32,5 +32,13 @@
 | 拿偷来的密码去其他网站试 | **Credential stuffing** |
 | 用电话 / 短信进行的钓鱼 | **Vishing / Smishing** |
 | 针对特定人或部门的钓鱼 | **Spear phishing** |
+| 蓝屏上找出错原因要看哪两行？ | **Stop code** 和 **What failed** |
+| `.sys` 结尾的文件通常是什么？ | **驱动程序（driver）** |
+| 更新驱动后才开始出问题，要怎么做？ | **Roll back driver**（Device Manager） |
+| 一开机就蓝屏，只载入基本驱动来排查 | **Safe Mode** |
+| 还原系统设定、不删除用户文件 | **System Restore** |
+| 检查并修复 Windows 系统文件 | **sfc /scannow** |
+| 随机蓝屏，怀疑内存故障 | **Windows Memory Diagnostic（mdsched.exe）** |
+| 同一个根本原因造成多个用户的事件 | **Problem ticket**（ITIL） |
 
 [⬅️ 返回目录](../README.md)
