@@ -15,6 +15,7 @@
 | [Practice 5](practice/practice-5.md) | 笔记本电脑很慢 | Task Manager（CPU / Memory / Disk / Network）、Restart vs Sleep、Fast Startup、硬盘空间、OneDrive |
 | [Practice 6](practice/practice-6.md) | 钓鱼邮件（Phishing） | MFA、Revoke sessions、Credential stuffing、安全事件上报、Timeline |
 | [Practice 7](practice/practice-7.md) | 蓝屏（BSOD） | Stop code、驱动程序、Device Manager、Safe Mode、Incident vs Problem |
+| [Practice 8](practice/practice-8.md) | 新员工入职（Onboarding） | HR 授权、RBAC、Privilege creep、AD / M365 建账号、Onboarding checklist |
 
 ### 📝 Notes
 
