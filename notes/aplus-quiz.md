@@ -40,5 +40,11 @@
 | 检查并修复 Windows 系统文件 | **sfc /scannow** |
 | 随机蓝屏，怀疑内存故障 | **Windows Memory Diagnostic（mdsched.exe）** |
 | 同一个根本原因造成多个用户的事件 | **Problem ticket**（ITIL） |
+| 员工换项目后累积了不需要的权限 | **Privilege creep** |
+| 按职位设定群组来管理权限 | **RBAC（Role-Based Access Control）** |
+| AD 里用来分类用户、套用 GPO 的"文件夹" | **OU（Organizational Unit）** |
+| M365 分配授权前必须先设定什么？ | **Usage location** |
+| 新员工的账号要根据什么来建立？ | **HR 的正式请求**（授权） |
+| 员工离职时 IT 最重要的事 | **停用账号、移除权限、收回设备**（Offboarding） |
 
 [⬅️ 返回目录](../README.md)
