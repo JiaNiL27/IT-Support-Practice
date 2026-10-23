@@ -73,5 +73,18 @@
 | has crash with | **became incompatible with** | 描述驱动不兼容 |
 | gave by IT team | **provided / given by the IT team** | 被动语态用过去分词 |
 | minitue / hep / id（is） | **minute / help / is** | 拼写 |
+| I'll prepare those request | **I'll do my best to get everything ready** | *request* 复数；不要承诺控制不了的事 |
+| express everything request | **tell me exactly what she needs** | *express* 是表达情感 |
+| open an access right | **create an account / set up access / grant access** | IT 常用说法 |
+| could you ask why I did receive | **we haven't received... Could you ask HR to submit it?** | 意思反了；不要追究责任 |
+| the Emma's information | **Emma's details** | 名字前不加 *the* |
+| setting the laptop | **setting up the laptop** | 准备电脑用 *set up* |
+| after we have receive | **once we receive** | *have* + 过去分词 |
+| we won't be open for her | **we won't give her that access** | 意思不对 |
+| cause（正式场合） | **because** | *cause* 是口语缩写 |
+| its（it is） | **it's** | 缩写要有撇号 |
+| access to the folder（动词） | **access the folder** | *access* 当动词不加 *to* |
+| I can setting up | **I can set up** | *can* + 原形 |
+| for him（Emma） | **for her** | 注意性别 |
 
 [⬅️ 返回目录](../README.md)
